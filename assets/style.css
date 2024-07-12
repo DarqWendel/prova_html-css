@@ -1,0 +1,135 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Poppins", sans-serif;
+    --font-size: 1.2rem;
+    --font-color: #f5f5f5;
+    --background: #fafaf4;
+    --email: #c92071;
+    --curriculo: #f6aa1c;
+    --radius: 10px;
+}
+
+body,
+button {
+    font-size: var(--font-size);
+    font-family: var(--font);
+    color: var(--font-color);
+}
+
+body {
+    background: linear-gradient(120deg, #000000, #183D3D);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #040D12;
+    padding: 1rem;
+}
+
+header {
+    background-color: #040D12;
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: #040D12 !important; /* Defina a cor de fundo desejada */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #f5f5f5 !important; /* Cor dos links */
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #ffffff !important; /* Cor dos links ao passar o mouse */
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.apresentacao {
+    color: #02420e;
+}
+
+.apresentacao h1 {
+    font-size: 2.25rem;
+    margin: 1.5rem 0;
+}
+
+#botaoy {
+    background-color: #02420e;
+    color: #f5f5f5;
+    border: none;
+    width: 140px;
+    height: 140px;
+}
+
+.sobreMim,
+.conhecimento,
+.contato {
+    background-color: #183D3D;
+    padding: 1rem;
+    border-radius: var(--radius);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sobreMim h1,
+.conhecimento h1,
+.contato h1 {
+    color: #f5f5f5;
+    margin-bottom: 1rem;
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conhecimento .html,
+.conhecimento .css {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conhecimento img {
+    width: 50px; /* Defina o tamanho desejado para as imagens dos conhecimentos */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Garante que as imagens se ajustem corretamente */
+}
+
+.contato a {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: #040D12;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+

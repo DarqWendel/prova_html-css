@@ -10,6 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
@@ -25,16 +27,22 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#sobremim">Sobre Mim</a>
+                            <a class="nav-link active" aria-current="page" href="#sobremim" id="sobre">Sobre Mim</a>
                             <a class="nav-link" href="#conhecimentoid">Conhecimentos</a>
                             <a class="nav-link" href="#contatoid">Contato</a>
+
+                           
+                            
                         </div>
                     </div>
                 </div>
             </nav>
         </form>
     </header>
+    <br>
     <main>
+
+        
 
         <div class="apresentacao">
             <h1>Olá</h1>
@@ -45,13 +53,15 @@
                 alguns dos meus primeiros projetos e o progresso que fiz até agora.</p>
         </div>
 
-        <div class="botaoParaContatar">
-            <button>Contate-me</button>
-        </div>
+        
+            <button id="botaoy">Contate-me</button>
+        
+        
+        
 
         <div class="sobreMim">
             <h1 id="sobremim">Sobre Mim</h1>
-            <img src="/assets/img/pig.jfif" alt="">
+            <img src="/assets/img/pig.jfif" alt="" id="perfil">
             <p>Meu nome É Dárquio Wendel, sou estudante na área da programação com foco no Front-End.</p>
             <p>Cursando Análise e Desenvolvimento de Sistemas na UNIFAMETRO, atualmente no 3º semestre</p>
             <p>Faço um curso de Full-Stack na Digital College, onde fiz diversos dos meus projetos</p>
@@ -94,7 +104,7 @@
                     <img src="/assets/img/github.jfif" alt="">
                 </a>
             </div>
-            </div>
+            
 
             <div class="linkedin">
                 <a href="www.linkedin.com/in/dárquio-oliveira-605906269">
